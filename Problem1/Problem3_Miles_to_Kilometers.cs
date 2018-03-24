@@ -13,9 +13,9 @@ namespace exs1
            
 			// Convert miles to kilometers; miles are read from the console
 			
-            var first = double.Parse(Console.ReadLine()); // miles
+            var miles = double.Parse(Console.ReadLine()); // miles
            
-            double distance_km = first * 1.60934; // kilometers
+            double distance_km = miles * 1.60934; // kilometers
 			
             Console.WriteLine($"{distance_km:f2}");
            
