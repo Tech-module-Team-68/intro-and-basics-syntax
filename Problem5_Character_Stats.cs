@@ -5,7 +5,8 @@ namespace P5_Character_Stats
     class Character_Stats
     {
         static void Main(string[] args)
-        {		//we recive from the Console character Name -> a string
+        {		
+		//we recive from the Console character Name -> a string
             string characterName = Console.ReadLine();
             int currentHealth = int.Parse(Console.ReadLine());
             int maximumHealth = int.Parse(Console.ReadLine());
