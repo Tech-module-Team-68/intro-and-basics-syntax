@@ -11,10 +11,14 @@ namespace exs1
         static void Main(string[] args)
         {
            
-
-            var first = double.Parse(Console.ReadLine());
+			// Calculate the area of a rectangle with sides: first and second read from the console
+			
+            var first_side = double.Parse(Console.ReadLine());
             var second = double.Parse(Console.ReadLine());
-            double sum = first * second;
+            
+			// sum is the calculated area of the rectangle
+			double sum = first_side * second;
+			
             Console.WriteLine($"{sum:f2}");
            
         }

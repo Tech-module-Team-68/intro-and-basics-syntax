@@ -11,11 +11,13 @@ namespace exs1
         static void Main(string[] args)
         {
            
-
-            var first = double.Parse(Console.ReadLine());
+			// Convert miles to kilometers; miles are read from the console
+			
+            var first = double.Parse(Console.ReadLine()); // miles
            
-            double sum = first * 1.60934;
-            Console.WriteLine($"{sum:f2}");
+            double distance_km = first * 1.60934; // kilometers
+			
+            Console.WriteLine($"{distance_km:f2}");
            
         }
     }
