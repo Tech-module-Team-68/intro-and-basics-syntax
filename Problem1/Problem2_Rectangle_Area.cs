@@ -10,7 +10,8 @@ namespace exs1
     {
         static void Main(string[] args)
         {
-           
+            // Code checked by Veselin
+			
 			// Calculate the area of a rectangle with sides: first and second read from the console
 			
             var widht = double.Parse(Console.ReadLine());

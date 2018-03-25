@@ -10,7 +10,8 @@ namespace exs1
     {
         static void Main(string[] args)
         {
-           
+            // Code checked by Veselin
+			
 			// Convert miles to kilometers; miles are read from the console
 			
             var miles = double.Parse(Console.ReadLine()); // miles
