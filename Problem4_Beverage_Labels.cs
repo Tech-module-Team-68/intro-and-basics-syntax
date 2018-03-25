@@ -15,11 +15,11 @@ namespace Pr4_Beverage_Labels
             double energyContentPer100ml = int.Parse(Console.ReadLine()); 
             double sugarContentPer100ml = int.Parse(Console.ReadLine());
 				// we calculate...
-            double beverageEnergy = beverageVolume * energyContentPer100ml / 100;
+            double beverageEnergyLevel = beverageVolume * energyContentPer100ml / 100;
             double beverageSugar = beverageVolume * sugarContentPer100ml / 100;
 				//TODO
             Console.WriteLine($"{beverageVolume}ml {beverageName}:");
-            Console.WriteLine($"{beverageEnergy}kcal, {beverageSugar}g sugars");
+            Console.WriteLine($"{beverageEnergyLevel}kcal, {beverageSugar}g sugars");
         }
     }
 }
