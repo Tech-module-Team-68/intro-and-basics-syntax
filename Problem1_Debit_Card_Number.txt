@@ -1,0 +1,19 @@
+using System;
+
+namespace Debit_Card_Number
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int firstNumber = int.Parse(Console.ReadLine());
+            int secondNumber = int.Parse(Console.ReadLine());
+            int thirdNumber = int.Parse(Console.ReadLine());
+            int forthNumber = int.Parse(Console.ReadLine());
+
+            string debitCardNumber = firstNumber.ToString().PadLeft(4, '0') + " " + secondNumber.ToString().PadLeft(4, '0') + " " + thirdNumber.ToString().PadLeft(4, '0') + " " + forthNumber.ToString().PadLeft(4, '0');
+
+            Console.WriteLine($"{debitCardNumber}");
+        }
+    }
+}
